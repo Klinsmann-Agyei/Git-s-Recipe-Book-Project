@@ -1,0 +1,18 @@
+pwd
+ls
+cd veggie-favorites
+git add chili.txt
+git commit
+pwd
+cd ../veggie-clone
+git fetch
+git branch
+git merge origin/master
+git branch new-recipe
+git checkout new-recipe
+git add new-recipe.txt
+git commit
+git fetch
+git push origin new-recipe
+cd ../veggie-favorites
+git checkout new-recipe
